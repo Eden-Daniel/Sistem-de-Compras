@@ -1,0 +1,19 @@
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+.dados_usuario {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.container h2 {
+    font-size: 32px;
+}
+
+.container h3 {
+    font-size: 26px;
+    color: var(--cinza);
+    margin-bottom: 30px;
+}

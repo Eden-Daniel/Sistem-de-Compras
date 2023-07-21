@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;    
+    width: 50%;
+    margin: auto;
+}
+
+.container h1 {
+    margin-top: 50px;   
+    margin-bottom: 50px;
+}
+
+.container_input {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_input label {
+    font-size: 22px;
+    color: var(--verde-claro);
+}
+
+.container_input input {
+    border: none;
+    background-color: var(--cinza-claro);
+    border-bottom: 1px solid var(--verde-claro);
+    outline: none;
+    font-size: 20px;
+    padding: 3px 2px 0px 2px;
+
+}
+
+.botao {
+    background-color: var(--verde-claro);
+    font-size: 18px;
+    color: var(--branco);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;    
+}
+
+.botao:hover {
+    background-color: #185e4f;
+    transition: 2ms;
+}

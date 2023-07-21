@@ -1,0 +1,36 @@
+.container {
+    height: 90px;
+    width: 100%;
+    background-color: var(--branco);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.produto {
+    display: flex;
+    align-items: center;
+    gap: 20px;    
+}
+
+.interacao {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;   
+}
+
+.interacao button {
+    background-color: var(--branco);
+    border: none;
+    cursor: pointer;
+}
+
+.container p {
+    font-size: 24px;
+    font-weight: 700;
+}

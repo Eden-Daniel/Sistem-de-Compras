@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.container button {
+    border: none;
+    cursor: pointer;
+    background-color: var(--cinza-claro);
+}

@@ -1,0 +1,24 @@
+.botao {
+    background-color: var(--verde-claro);
+    font-size: 18px;
+    color: var(--branco);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;  
+    cursor: pointer;  
+}
+
+.botao:hover {
+    background-color: #185e4f;
+    transition: 2ms;
+}
+
+.desativado {
+    background-color: var(--cinza);
+    opacity: 0.5;
+    cursor: not-allowed
+}
+
+.desativado:hover {
+    background-color: var(--cinza);
+}
