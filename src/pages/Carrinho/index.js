@@ -12,7 +12,7 @@ import BarraCompraEfetuada from "./BarraCompraEfetuada";
 
 
     function Carrinho(){
-        const { carrinho, efetuaCompra,  valorTotalProdutos = 0 } = useCarrinhoContext()
+        const { carrinho, efetuaCompra,  valorTotalProdutos } = useCarrinhoContext()
         const { saldo = 0} = useContext(UsuarioContext)
         const total = useMemo(() => saldo - valorTotalProdutos, [saldo, valorTotalProdutos])
         const [ compraEfetuada, setCompraEfetuada] = useState(false)
